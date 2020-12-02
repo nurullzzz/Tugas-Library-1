@@ -7,14 +7,10 @@ void awalan(){
 }
 int main(){
     char nama[20];
+    char greet[100] = "Selamat Datang ";
     awalan();
     scanf("%s",nama);
-    printf("Selamat datang %s \n",nama);
+    strcat(greet, nama);
+    puts(greet);
 return 0;
-}
-void gabungan (char abc,char stu){
-    char abc[100] = ("Test bisa apa engga");
-    char stu[] = ("gabungin ini");
-    strcat(abc, stu);
-    puts(abc);
 }
