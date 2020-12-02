@@ -5,8 +5,16 @@ void awalan(){
     printf("Welcome\n");
     printf("Silahkan Isi Nama Anda :\n");
 }
-void main(){
-    char nama;
+int main(){
+    char nama[20];
     awalan();
-    scanf ("%c",&nama);
+    scanf("%s",nama);
+    printf("Selamat datang %s \n",nama);
+return 0;
+}
+void gabungan (char abc,char stu){
+    char abc[100] = ("Test bisa apa engga");
+    char stu[] = ("gabungin ini");
+    strcat(abc, stu);
+    puts(abc);
 }
