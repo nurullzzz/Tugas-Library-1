@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <string.h>
-void asutenan(){
-    printf("Heh Iki lho\n");
-    printf("wes kenek koyoke\n");
+void gabungan(char a,char s);
+void awalan(){
+    printf("Welcome\n");
+    printf("Silahkan Isi Nama Anda :\n");
 }
 void main(){
-    asutenan();
+    char nama;
+    awalan();
+    scanf ("%c",&nama);
 }
