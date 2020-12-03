@@ -1,16 +1,10 @@
-#include <stdio.h>
 #include <string.h>
-void gabungan(char a,char s);
 void awalan(){
-    printf("Welcome\n");
-    printf("Silahkan Isi Nama Anda :\n");
+    char nama[20] = "Khusnul Qodir";
+    char greet[100] = "Selamat Datang ";
+    strcat(greet, nama);
 }
 int main(){
-    char nama[20];
-    char greet[100] = "Selamat Datang ";
     awalan();
-    scanf("%s",nama);
-    strcat(greet, nama);
-    puts(greet);
 return 0;
 }
