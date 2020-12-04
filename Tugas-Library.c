@@ -4,7 +4,14 @@ void awalan(){
     char greet[100] = "Selamat Datang ";
     strcat(greet, nama);
 }
-int main(){
-    awalan();
+void main(){
+    int a = 40;
+    int b = 35;
+    strcmp (a,b);
 return 0;
 }
+int main(){
+    
+    
+}
+    
