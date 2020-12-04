@@ -5,13 +5,9 @@ void awalan(){
     strcat(greet, nama);
 }
 void main(){
+    awalan();
     int a = 40;
     int b = 35;
     strcmp (a,b);
 return 0;
-}
-int main(){
-    
-    
-}
-    
+} 
