@@ -1,13 +1,20 @@
 #include <string.h>
+char judul();
 void awalan(){
-    char nama[20] = "Khusnul Qodir";
-    char greet[100] = "Selamat Datang ";
-    strcat(greet, nama);
+    char a[16] = "Selamat Datang ";
+    char b[100] = "Khusnul Qodir";
+    strcat(a, b);
 }
 void main(){
     awalan();
-    int a = 40;
-    int b = 35;
-    strcmp (a,b);
+    char a[20] = "40";
+    char b[20] = "35";
+    strcmp (a, b);
+    judul();
+}
+char judul(){
+    char a[20] = "Harta Tahta Dia";
+    char b[20];
+    strcpy(b, a);
 return 0;
-} 
+}
